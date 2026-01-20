@@ -1,0 +1,23 @@
+{
+  "challengeTheAI": "AIに挑戦する",
+  "chooseGameMode": "ゲームモードを選択",
+  "computer": "コンピューター",
+  "computerThinking": "コンピュータは考えている",
+  "computerWins": "コンピュータが勝ちました！",
+  "computersTurn": "コンピュータの番",
+  "draws": "引き分け",
+  "itsADraw": "引き分けです！",
+  "playWithFriend": "友達と遊ぶ",
+  "player": "プレーヤー",
+  "playerO": "プレイヤーO",
+  "playerTurn": "プレイヤー{{player}}のターン",
+  "playerWins": "プレイヤー{{player}}が勝利しました!",
+  "playerX": "プレイヤーX",
+  "score": "スコア",
+  "selectMode": "ゲームモードを選択",
+  "twoPlayers": "2人用",
+  "vsComputer": "対コンピュータ",
+  "you": "あなた",
+  "youWin": "勝ちましたよ！",
+  "yourTurn": "あなたの番です"
+}

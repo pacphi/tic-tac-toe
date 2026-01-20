@@ -1,0 +1,12 @@
+{
+  "appTitle": "Tres en raya",
+  "backToMenu": "Volver al menú",
+  "builtWith": "Desarrollado con React 19 y Tailwind CSS 4",
+  "darkMode": "Modo oscuro",
+  "exitToMenu": "Salir al menú",
+  "gotIt": "¡Entiendo!",
+  "howToPlay": "Cómo jugar",
+  "lightMode": "Modo claro",
+  "playAgain": "Jugar de nuevo",
+  "resetGame": "Reiniciar juego"
+}

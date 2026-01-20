@@ -1,0 +1,62 @@
+# ampel-i18n-builder Configuration
+# For tic-tac-toe React application
+
+# Project settings
+source_locale: en
+locales_dir: public/locales
+translation_dir: public/locales
+file_format: json
+
+# Target languages (add more as needed)
+target_locales:
+  - es    # Spanish
+  - fr    # French
+  - de    # German
+  - ja    # Japanese
+  - zh-CN # Simplified Chinese
+  - pt-BR # Brazilian Portuguese
+
+# Translation namespaces (logical groupings)
+namespaces:
+  - common     # General UI text
+  - game       # Game-specific messages
+  - tutorial   # How to play content
+
+# Source code scanning settings
+source:
+  include:
+    - "src/**/*.jsx"
+    - "src/**/*.js"
+  exclude:
+    - "node_modules/**"
+    - "dist/**"
+
+# Translation provider configuration
+translation:
+  # API keys are loaded from environment variables
+  systran_api_key: "${SYSTRAN_API_KEY}"
+  deepl_api_key: "${DEEPL_API_KEY}"
+  google_api_key: "${GOOGLE_API_KEY}"
+  openai_api_key: "${OPENAI_API_KEY}"
+
+  # Provider settings
+  default_timeout_secs: 30
+  default_batch_size: 50
+  default_max_retries: 3
+
+  providers:
+    deepl:
+      enabled: true
+      priority: 1
+    google:
+      enabled: true
+      priority: 2
+    openai:
+      enabled: true
+      priority: 3
+      model: gpt-4o-mini
+
+  fallback:
+    skip_on_missing_key: true
+    stop_on_first_success: true
+    log_fallback_events: true

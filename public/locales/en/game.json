@@ -1,0 +1,23 @@
+{
+  "computerThinking": "Computer is thinking",
+  "youWin": "You win!",
+  "computerWins": "Computer wins!",
+  "playerWins": "Player {{player}} wins!",
+  "itsADraw": "It's a draw!",
+  "yourTurn": "Your turn",
+  "computersTurn": "Computer's turn",
+  "playerTurn": "Player {{player}}'s turn",
+  "score": "Score",
+  "player": "Player",
+  "computer": "Computer",
+  "draws": "Draws",
+  "vsComputer": "vs Computer",
+  "twoPlayers": "2 Players",
+  "selectMode": "Select Game Mode",
+  "chooseGameMode": "Choose Game Mode",
+  "you": "You",
+  "playerX": "Player X",
+  "playerO": "Player O",
+  "challengeTheAI": "Challenge the AI",
+  "playWithFriend": "Play with a friend"
+}

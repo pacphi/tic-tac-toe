@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export function ThemeToggle() {
+  const { t } = useTranslation('common')
   const [isDark, setIsDark] = useState(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('theme')
@@ -29,7 +31,7 @@ export function ThemeToggle() {
       style={{
         backgroundColor: isDark ? '#4f46e5' : '#e5e7eb'
       }}
-      aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+      aria-label={isDark ? t('lightMode') : t('darkMode')}
     >
       <div
         className="w-6 h-6 rounded-full bg-white shadow-md transition-transform duration-300

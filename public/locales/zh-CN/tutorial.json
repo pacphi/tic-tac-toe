@@ -1,0 +1,14 @@
+{
+  "gameModes": "游戏模式",
+  "howToPlayTitle": "玩法",
+  "objective": "客观的",
+  "objectiveText": "将你的三个标记连成一线（横向、纵向或对角线）即可获胜！",
+  "reset": "重置",
+  "resetText": "随时点击“重置游戏”即可重新开始。您的分数将一直保留，直到您退出到菜单为止。",
+  "step1": "选择游戏模式",
+  "step2": "点击任意空白方格放置标记",
+  "step3": "总是第一个",
+  "step4": "先连得3分者获胜！",
+  "twoPlayersDesc": "与朋友轮流使用同一台设备。",
+  "vsComputerDesc": "你扮演X角色对抗电脑AI。"
+}

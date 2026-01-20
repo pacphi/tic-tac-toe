@@ -1,0 +1,14 @@
+{
+  "objective": "Objective",
+  "objectiveText": "Get three of your marks in a row (horizontally, vertically, or diagonally) to win!",
+  "gameModes": "Game Modes",
+  "vsComputerDesc": "You play as X against the AI.",
+  "twoPlayersDesc": "Take turns with a friend on the same device.",
+  "howToPlayTitle": "How to Play",
+  "step1": "Choose a game mode",
+  "step2": "Click any empty square to place your mark",
+  "step3": "always goes first",
+  "step4": "First to get 3 in a row wins!",
+  "reset": "Reset",
+  "resetText": "Click \"Reset Game\" at any time to start over. Your score will be preserved until you exit to the menu."
+}

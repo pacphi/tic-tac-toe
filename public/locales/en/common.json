@@ -1,0 +1,12 @@
+{
+  "appTitle": "Tic Tac Toe",
+  "howToPlay": "How to Play",
+  "gotIt": "Got it!",
+  "resetGame": "Reset Game",
+  "playAgain": "Play Again",
+  "exitToMenu": "Exit to Menu",
+  "backToMenu": "Back to Menu",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "builtWith": "Built with React 19 & Tailwind CSS 4"
+}

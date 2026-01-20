@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { useGame } from './hooks/useGame'
 import { Board } from './components/Board'
 import { GameStatus } from './components/GameStatus'
@@ -6,8 +7,10 @@ import { ModeSelector } from './components/ModeSelector'
 import { ScoreBoard } from './components/ScoreBoard'
 import { HowToPlay } from './components/HowToPlay'
 import { ThemeToggle } from './components/ThemeToggle'
+import { LanguageSwitcher } from './components/LanguageSwitcher'
 
 function App() {
+  const { t } = useTranslation('common')
   const {
     board,
     currentPlayer,
@@ -42,6 +45,7 @@ function App() {
           <span className="text-indigo-500">Toe</span>
         </h1>
         <div className="flex items-center gap-3">
+          <LanguageSwitcher />
           <HowToPlay />
           <ThemeToggle />
         </div>
@@ -94,7 +98,7 @@ function App() {
           color: 'var(--text-secondary)'
         }}
       >
-        Built with React 19 & Tailwind CSS 4
+        {t('builtWith')}
       </footer>
     </div>
   )

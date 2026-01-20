@@ -1,0 +1,23 @@
+{
+  "challengeTheAI": "Desafie a IA",
+  "chooseGameMode": "Escolha o modo de jogo",
+  "computer": "Computador",
+  "computerThinking": "O computador está pensando",
+  "computerWins": "O computador venceu!",
+  "computersTurn": "Agora é a vez do computador.",
+  "draws": "Empates",
+  "itsADraw": "Deu empate!",
+  "playWithFriend": "Brinque com um amigo",
+  "player": "Jogador",
+  "playerO": "Jogador O",
+  "playerTurn": "É a vez do jogador {{player}}",
+  "playerWins": "O jogador {{player}} venceu!",
+  "playerX": "Jogador X",
+  "score": "Pontuação",
+  "selectMode": "Selecione o modo de jogo",
+  "twoPlayers": "2 jogadores",
+  "vsComputer": "vs Computador",
+  "you": "Você",
+  "youWin": "Você venceu!",
+  "yourTurn": "Sua vez"
+}

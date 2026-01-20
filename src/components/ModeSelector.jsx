@@ -1,11 +1,15 @@
+import { useTranslation } from 'react-i18next'
+
 export function ModeSelector({ onSelectMode }) {
+  const { t } = useTranslation('game')
+
   return (
     <div className="slide-up">
       <h2
         className="text-2xl sm:text-3xl font-bold text-center mb-8"
         style={{ color: 'var(--text-primary)' }}
       >
-        Choose Game Mode
+        {t('chooseGameMode')}
       </h2>
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -24,10 +28,10 @@ export function ModeSelector({ onSelectMode }) {
             className="text-xl font-bold mb-1 group-hover:text-pink-500 transition-colors"
             style={{ color: 'var(--text-primary)' }}
           >
-            vs Computer
+            {t('vsComputer')}
           </div>
           <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            Challenge the AI
+            {t('challengeTheAI')}
           </div>
         </button>
 
@@ -46,10 +50,10 @@ export function ModeSelector({ onSelectMode }) {
             className="text-xl font-bold mb-1 group-hover:text-cyan-400 transition-colors"
             style={{ color: 'var(--text-primary)' }}
           >
-            2 Players
+            {t('twoPlayers')}
           </div>
           <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            Play with a friend
+            {t('playWithFriend')}
           </div>
         </button>
       </div>

@@ -1,0 +1,12 @@
+{
+  "appTitle": "三目並べ",
+  "backToMenu": "メニューに戻る",
+  "builtWith": "React 19とTailwind CSS 4で構築",
+  "darkMode": "ダークモード",
+  "exitToMenu": "メニューへ戻る",
+  "gotIt": "わかった！",
+  "howToPlay": "遊び方",
+  "lightMode": "ライトモード",
+  "playAgain": "もう一度プレイ",
+  "resetGame": "ゲームをリセット"
+}

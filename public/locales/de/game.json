@@ -1,0 +1,23 @@
+{
+  "challengeTheAI": "Fordere die KI heraus",
+  "chooseGameMode": "Spielmodus auswählen",
+  "computer": "Computer",
+  "computerThinking": "Der Computer denkt",
+  "computerWins": "Der Computer gewinnt!",
+  "computersTurn": "Jetzt ist der Computer an der Reihe.",
+  "draws": "Unentschieden",
+  "itsADraw": "Es steht unentschieden!",
+  "playWithFriend": "Spiele mit einem Freund",
+  "player": "Spieler",
+  "playerO": "Spieler O",
+  "playerTurn": "Zug von Spieler {{player}}",
+  "playerWins": "Spieler {{player}} gewinnt!",
+  "playerX": "Spieler X",
+  "score": "Punktzahl",
+  "selectMode": "Spielmodus auswählen",
+  "twoPlayers": "2 Spieler",
+  "vsComputer": "vs Computer",
+  "you": "Du",
+  "youWin": "Du hast gewonnen!",
+  "yourTurn": "Du bist dran"
+}

@@ -1,0 +1,14 @@
+{
+  "gameModes": "Modos de jogo",
+  "howToPlayTitle": "Como jogar",
+  "objective": "Objetivo",
+  "objectiveText": "Consiga três marcas iguais em linha (horizontal, vertical ou diagonal) para ganhar!",
+  "reset": "Reiniciar",
+  "resetText": "Clique em \"Reiniciar Jogo\" a qualquer momento para começar de novo. Sua pontuação será mantida até que você saia para o menu.",
+  "step1": "Escolha um modo de jogo",
+  "step2": "Clique em qualquer quadrado vazio para colocar sua marca.",
+  "step3": "sempre vem primeiro",
+  "step4": "Quem conseguir 3 em linha primeiro ganha!",
+  "twoPlayersDesc": "Revezem-se com um amigo no mesmo dispositivo.",
+  "vsComputerDesc": "Você joga como X contra a IA."
+}

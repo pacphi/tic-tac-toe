@@ -1,0 +1,23 @@
+{
+  "challengeTheAI": "挑战人工智能",
+  "chooseGameMode": "选择游戏模式",
+  "computer": "电脑",
+  "computerThinking": "电脑正在思考",
+  "computerWins": "电脑赢了！",
+  "computersTurn": "轮到电脑了",
+  "draws": "平局",
+  "itsADraw": "平局！",
+  "playWithFriend": "和朋友一起玩",
+  "player": "玩家",
+  "playerO": "玩家 O",
+  "playerTurn": "玩家{{player}}的回合",
+  "playerWins": "玩家{{player}}获胜！",
+  "playerX": "玩家 X",
+  "score": "分数",
+  "selectMode": "选择游戏模式",
+  "twoPlayers": "2名玩家",
+  "vsComputer": "与电脑",
+  "you": "你",
+  "youWin": "你赢了！",
+  "yourTurn": "轮到你了"
+}

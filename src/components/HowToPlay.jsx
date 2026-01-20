@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export function HowToPlay() {
   const [isOpen, setIsOpen] = useState(false)
+  const { t } = useTranslation(['common', 'tutorial'])
 
   return (
     <>
@@ -14,7 +16,7 @@ export function HowToPlay() {
           color: 'var(--text-secondary)'
         }}
       >
-        How to Play
+        {t('common:howToPlay')}
       </button>
 
       {isOpen && (
@@ -44,7 +46,7 @@ export function HowToPlay() {
               className="text-2xl font-bold mb-6"
               style={{ color: 'var(--text-primary)' }}
             >
-              How to Play
+              {t('common:howToPlay')}
             </h2>
 
             <div className="space-y-4" style={{ color: 'var(--text-secondary)' }}>
@@ -52,9 +54,9 @@ export function HowToPlay() {
                 <span className="text-2xl">🎯</span>
                 <div>
                   <h3 className="font-semibold" style={{ color: 'var(--text-primary)' }}>
-                    Objective
+                    {t('tutorial:objective')}
                   </h3>
-                  <p>Get three of your marks in a row (horizontally, vertically, or diagonally) to win!</p>
+                  <p>{t('tutorial:objectiveText')}</p>
                 </div>
               </div>
 
@@ -62,12 +64,12 @@ export function HowToPlay() {
                 <span className="text-2xl">🎮</span>
                 <div>
                   <h3 className="font-semibold" style={{ color: 'var(--text-primary)' }}>
-                    Game Modes
+                    {t('tutorial:gameModes')}
                   </h3>
                   <p>
-                    <span className="text-pink-500 font-medium">vs Computer:</span> You play as X against the AI.
+                    <span className="text-pink-500 font-medium">{t('game:vsComputer')}:</span> {t('tutorial:vsComputerDesc')}
                     <br />
-                    <span className="text-cyan-400 font-medium">2 Players:</span> Take turns with a friend on the same device.
+                    <span className="text-cyan-400 font-medium">{t('game:twoPlayers')}:</span> {t('tutorial:twoPlayersDesc')}
                   </p>
                 </div>
               </div>
@@ -76,13 +78,13 @@ export function HowToPlay() {
                 <span className="text-2xl">✨</span>
                 <div>
                   <h3 className="font-semibold" style={{ color: 'var(--text-primary)' }}>
-                    How to Play
+                    {t('tutorial:howToPlayTitle')}
                   </h3>
                   <p>
-                    1. Choose a game mode<br />
-                    2. Click any empty square to place your mark<br />
-                    3. <span className="text-pink-500">X</span> always goes first<br />
-                    4. First to get 3 in a row wins!
+                    1. {t('tutorial:step1')}<br />
+                    2. {t('tutorial:step2')}<br />
+                    3. <span className="text-pink-500">X</span> {t('tutorial:step3')}<br />
+                    4. {t('tutorial:step4')}
                   </p>
                 </div>
               </div>
@@ -91,9 +93,9 @@ export function HowToPlay() {
                 <span className="text-2xl">🔄</span>
                 <div>
                   <h3 className="font-semibold" style={{ color: 'var(--text-primary)' }}>
-                    Reset
+                    {t('tutorial:reset')}
                   </h3>
-                  <p>Click "Reset Game" at any time to start over. Your score will be preserved until you exit to the menu.</p>
+                  <p>{t('tutorial:resetText')}</p>
                 </div>
               </div>
             </div>
@@ -104,7 +106,7 @@ export function HowToPlay() {
                          font-semibold rounded-xl transition-all duration-200
                          hover:scale-105 active:scale-95"
             >
-              Got it!
+              {t('common:gotIt')}
             </button>
           </div>
         </div>

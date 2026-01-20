@@ -1,0 +1,12 @@
+{
+  "appTitle": "Morpion",
+  "backToMenu": "Retour au menu",
+  "builtWith": "Conçu avec React 19 et Tailwind CSS 4",
+  "darkMode": "Mode sombre",
+  "exitToMenu": "Retour au menu",
+  "gotIt": "J'ai compris!",
+  "howToPlay": "Comment jouer",
+  "lightMode": "Mode clair",
+  "playAgain": "Rejouer",
+  "resetGame": "Réinitialiser le jeu"
+}

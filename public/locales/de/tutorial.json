@@ -1,0 +1,14 @@
+{
+  "gameModes": "Spielmodi",
+  "howToPlayTitle": "Spielanleitung",
+  "objective": "Objektiv",
+  "objectiveText": "Wenn du drei deiner Symbole in einer Reihe (horizontal, vertikal oder diagonal) anbringst, gewinnst du!",
+  "reset": "Zurücksetzen",
+  "resetText": "Klicken Sie jederzeit auf „Spiel zurücksetzen“, um von vorn zu beginnen. Ihr Punktestand bleibt erhalten, bis Sie ins Menü zurückkehren.",
+  "step1": "Wähle einen Spielmodus",
+  "step2": "Klicken Sie auf ein beliebiges leeres Quadrat, um Ihr Zeichen zu platzieren.",
+  "step3": "geht immer zuerst",
+  "step4": "Wer zuerst 3 in Folge erzielt, gewinnt!",
+  "twoPlayersDesc": "Wechselt euch mit einem Freund am selben Gerät ab.",
+  "vsComputerDesc": "Du spielst als X gegen die KI."
+}

@@ -1,9 +1,13 @@
+import { useTranslation } from 'react-i18next'
+
 export function GameStatus({ gameStatus, currentPlayer, isAIThinking, gameMode }) {
+  const { t } = useTranslation('game')
+
   const getStatusMessage = () => {
     if (isAIThinking) {
       return (
         <span className="flex items-center gap-2">
-          <span className="animate-pulse">Computer is thinking</span>
+          <span className="animate-pulse">{t('computerThinking')}</span>
           <span className="flex gap-1">
             <span className="w-2 h-2 bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></span>
             <span className="w-2 h-2 bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></span>
@@ -15,8 +19,8 @@ export function GameStatus({ gameStatus, currentPlayer, isAIThinking, gameMode }
 
     if (gameStatus.status === 'won') {
       const winnerName = gameMode === 'pvc'
-        ? (gameStatus.winner === 'X' ? 'You win!' : 'Computer wins!')
-        : `Player ${gameStatus.winner} wins!`
+        ? (gameStatus.winner === 'X' ? t('youWin') : t('computerWins'))
+        : t('playerWins', { player: gameStatus.winner })
       return (
         <span className={`font-bold ${gameStatus.winner === 'X' ? 'text-pink-500' : 'text-cyan-400'}`}>
           {winnerName}
@@ -25,16 +29,16 @@ export function GameStatus({ gameStatus, currentPlayer, isAIThinking, gameMode }
     }
 
     if (gameStatus.status === 'draw') {
-      return <span className="text-yellow-500 font-bold">It's a draw!</span>
+      return <span className="text-yellow-500 font-bold">{t('itsADraw')}</span>
     }
 
-    const playerName = gameMode === 'pvc'
-      ? (currentPlayer === 'X' ? 'Your' : "Computer's")
-      : `Player ${currentPlayer}'s`
+    const turnMessage = gameMode === 'pvc'
+      ? (currentPlayer === 'X' ? t('yourTurn') : t('computersTurn'))
+      : t('playerTurn', { player: currentPlayer })
 
     return (
       <span>
-        {playerName} turn{' '}
+        {turnMessage}{' '}
         <span className={currentPlayer === 'X' ? 'text-pink-500' : 'text-cyan-400'}>
           ({currentPlayer})
         </span>

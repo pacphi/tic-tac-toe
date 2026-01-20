@@ -1,0 +1,12 @@
+{
+  "appTitle": "井字棋",
+  "backToMenu": "返回菜单",
+  "builtWith": "使用 React 19 和 Tailwind CSS 4 构建",
+  "darkMode": "深色模式",
+  "exitToMenu": "退出至菜单",
+  "gotIt": "知道了！",
+  "howToPlay": "玩法",
+  "lightMode": "浅色模式",
+  "playAgain": "再次播放",
+  "resetGame": "重置游戏"
+}

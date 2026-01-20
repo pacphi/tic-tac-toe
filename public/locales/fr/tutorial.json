@@ -1,0 +1,14 @@
+{
+  "gameModes": "Modes de jeu",
+  "howToPlayTitle": "Comment jouer",
+  "objective": "Objectif",
+  "objectiveText": "Alignez trois de vos marques (horizontalement, verticalement ou en diagonale) pour gagner !",
+  "reset": "Réinitialiser",
+  "resetText": "Cliquez sur « Réinitialiser la partie » à tout moment pour recommencer. Votre score sera conservé jusqu'à ce que vous retourniez au menu.",
+  "step1": "Choisissez un mode de jeu",
+  "step2": "Cliquez sur n'importe quelle case vide pour placer votre marque",
+  "step3": "passe toujours en premier",
+  "step4": "Le premier à aligner 3 fois gagne !",
+  "twoPlayersDesc": "Jouez à tour de rôle avec un ami sur le même appareil.",
+  "vsComputerDesc": "Vous incarnez X contre l'IA."
+}

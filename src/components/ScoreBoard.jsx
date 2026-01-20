@@ -1,6 +1,10 @@
+import { useTranslation } from 'react-i18next'
+
 export function ScoreBoard({ scores, gameMode }) {
-  const player1Label = gameMode === 'pvc' ? 'You' : 'Player X'
-  const player2Label = gameMode === 'pvc' ? 'Computer' : 'Player O'
+  const { t } = useTranslation('game')
+
+  const player1Label = gameMode === 'pvc' ? t('you') : t('playerX')
+  const player2Label = gameMode === 'pvc' ? t('computer') : t('playerO')
 
   return (
     <div
@@ -15,7 +19,7 @@ export function ScoreBoard({ scores, gameMode }) {
       </div>
       <div className="text-center">
         <div className="font-bold text-lg sm:text-xl" style={{ color: 'var(--text-secondary)' }}>
-          Draws
+          {t('draws')}
         </div>
         <div className="text-2xl sm:text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>
           {scores.draws}

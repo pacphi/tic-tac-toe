@@ -1,0 +1,12 @@
+{
+  "appTitle": "Jogo da Velha",
+  "backToMenu": "Voltar ao menu",
+  "builtWith": "Criado com React 19 e Tailwind CSS 4",
+  "darkMode": "Modo escuro",
+  "exitToMenu": "Sair para o menu",
+  "gotIt": "Entendi!",
+  "howToPlay": "Como jogar",
+  "lightMode": "Modo claro",
+  "playAgain": "Jogar novamente",
+  "resetGame": "Reiniciar jogo"
+}

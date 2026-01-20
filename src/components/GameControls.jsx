@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next'
+
 export function GameControls({ onReset, onExit, gameStatus }) {
+  const { t } = useTranslation('common')
+
   return (
     <div className="flex gap-3 justify-center mt-4">
       <button
@@ -7,7 +11,7 @@ export function GameControls({ onReset, onExit, gameStatus }) {
                    transition-all duration-200 hover:scale-105 active:scale-95
                    shadow-lg hover:shadow-indigo-500/30"
       >
-        {gameStatus.status === 'playing' ? 'Reset Game' : 'Play Again'}
+        {gameStatus.status === 'playing' ? t('resetGame') : t('playAgain')}
       </button>
       <button
         onClick={onExit}
@@ -20,7 +24,7 @@ export function GameControls({ onReset, onExit, gameStatus }) {
           backgroundColor: 'var(--bg-secondary)'
         }}
       >
-        Exit to Menu
+        {t('exitToMenu')}
       </button>
     </div>
   )
