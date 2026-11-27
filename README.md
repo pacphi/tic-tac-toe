@@ -8,7 +8,7 @@
 
 [![CI](https://github.com/pacphi/tic-tac-toe/actions/workflows/ci.yml/badge.svg)](https://github.com/pacphi/tic-tac-toe/actions/workflows/ci.yml)
 ![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![Vite 6](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
+![Vite 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![Vitest](https://img.shields.io/badge/tested_with-Vitest-6E9F18?logo=vitest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/linted_with-ESLint-4B32C3?logo=eslint&logoColor=white)
@@ -45,7 +45,7 @@ You won't beat it. Draw it and you can brag. That's the whole hook. 🎣
 | 🌗 **Light / Dark Mode** | Follows your system setting and remembers your choice. Your eyes deserve nice things. 😎 |
 | 🎨 **Neon Glow-Up** | Hot-pink X's, cyan O's, and a winning line that lights up so you know exactly how you lost. |
 | 📖 **Built-in Rules** | A "How to Play" pop-up for the three people on Earth who need it. No judgement. Okay, a little judgement. |
-| ⚡ **Instant Everything** | Vite builds it in about a second, the page loads straight away, and the computer pauses for half a second so it looks like it's thinking. 💅 |
+| ⚡ **Instant Everything** | Vite 8 and its Rust-powered Rolldown bundler build it in about 200 ms, the page loads straight away, and the computer pauses for half a second so it looks like it's thinking. 💅 |
 
 ## 🚀 Quick Start
 
@@ -85,7 +85,7 @@ Then open **http://localhost:5173** and get humbled. 🫠
 |---|---|---|
 | 🎨 UI | [React 19](https://react.dev/) | Small components, one custom hook, no global state |
 | 💄 Styling | [Tailwind CSS 4](https://tailwindcss.com/) | Utility classes plus CSS variables that drive the theme |
-| ⚡ Build | [Vite 6](https://vite.dev/) | Instant dev server and fast production builds |
+| ⚡ Build | [Vite 8](https://vite.dev/) + [Rolldown](https://rolldown.rs/) | Instant dev server, production builds in about 200 ms |
 | 🤖 Brains | Minimax + alpha-beta pruning | Pure JavaScript, no dependencies, unbeatable |
 | 🧪 Tests | [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/) | 23 tests, including one where the AI plays itself to a draw |
 | 🧹 Quality | [ESLint](https://eslint.org/) + [TypeScript](https://www.typescriptlang.org/) type checking | Catches mistakes before the computer can laugh at them |
